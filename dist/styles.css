@@ -153,8 +153,10 @@ padding-bottom: 15px;
   /* padding-top: 5px; */
   /* padding-bottom: 15px; */
   font-size: smaller;
-
 }
+.qnaSpacer{
+  margin:auto;
+  min-width: 20px;}
 
 .qa-question1{
   position:relative;
@@ -1304,6 +1306,10 @@ content: '\f005';
 
 .too-wide {
   margin: 0px 0px 0px 30px;
+}
+
+.reviewsSpacer {
+  margin: auto;
 }
 
 /* end of REVIEW SERVICE CSS */
