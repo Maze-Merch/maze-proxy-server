@@ -1,10 +1,4 @@
-# Important Details
-
-1. Each service is cloned into this repo
-2. Every server is on a different port --> productDetails: 3001, relatedProducts: 3002, QnA: 3003, reviewsService: 3004.
-3. The reason we're able to make a request for the bundle of each service i.e `http://localhost:3001/bundle.js` is because we're using express.static
-
-# proxy-server
+## proxy-server
 To run all 4 services, RUN: npm start --> this script runs: npm run concurrently and nodemon to cd into each service and run the 'start' script within that service. If this command fails anywhere, it will kill all the other commands in this script.
 
 To efficiently update all services to their current master branch version, RUN: npm run updateAll --> this script will run 4 scripts within the proxy server called updateServiceOne, updateServiceTwo, updateServiceThree, and updateServiceFour. Each of these scripts will cd into 1 of the 4 services and RUN: git checkout && git pull --> these scripts will checkout the master branch of the service and pull the most recent commit.
