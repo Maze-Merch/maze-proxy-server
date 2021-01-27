@@ -1108,7 +1108,7 @@ background: #78b877;
   outline: none;
 }
 
-.btn, .btn-primary {
+/* .btn, .btn-primary {
   margin: 0px 3% 0px 20%;
   font-size: .75rem;
   padding: .75rem .75rem;
@@ -1129,7 +1129,7 @@ background: #78b877;
   color: white;
   border: 1px solid black;
   transition: all 0.5s ease;
-}
+} */
 
 .add-review-module {
   display: inline-block;
